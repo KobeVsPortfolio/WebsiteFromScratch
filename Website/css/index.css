@@ -1,0 +1,101 @@
+body {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: auto;
+  padding-top: 20px;
+  padding-right: 10%;
+  padding-left:  10%;
+  font: 18px monospace, sans-serif;
+}
+
+#ski{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#ski::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    width: 70%; 
+    left: 15%;
+    height: 50px;
+    bottom: 0;
+}
+            
+#voetbal{
+    position: relative;
+    background-size: cover;
+    width:auto;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#voetbal::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+    width: 70%; 
+    left: 15%;
+    height: 50px;
+    bottom: 0;
+}
+           
+#fitness{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#fitness::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+    width: 70%; 
+    left: 15%;
+    height: 50px;
+    bottom: 0;
+}
+
+#text {
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background-color: #C7E1FE;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#text::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+    width: 70%; 
+    left: 15%;
+    height: 50px;
+    bottom: 0;
+}
+
+p{
+    font: 18px monospace, sans-serif;
+}
+
+footer{
+    padding: 0px 10px;
+    margin-bottom: 30px;
+}
